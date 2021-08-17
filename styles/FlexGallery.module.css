@@ -1,0 +1,153 @@
+.item1 {
+    background-image: url('/images/gallery/img-1.jpg');
+}
+.item1:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: left top;
+
+    margin-bottom: 5rem;
+
+}
+.item2 {
+    background-image: url('/images/gallery/img-2.jpg');
+}
+.item2:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: left top;
+
+    margin-bottom: 5rem;
+
+}
+.item3 {
+    background-image: url('/images/gallery/img-3.jpg');
+}
+.item3:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: right top;
+
+    margin-bottom: 5rem;
+
+}
+.item4 {
+    background-image: url('/images/gallery/img-4.jpg');
+}
+.item4:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: right top;
+
+    margin-bottom: 5rem;
+
+}
+.item5 {
+    background-image: url('/images/gallery/img-5.jpg');
+}
+.item5:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: left center;
+
+    margin-bottom: 5rem;
+
+}
+.item6 {
+    background-image: url('/images/gallery/img-6.jpg');
+}
+.item6:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: center;
+
+    margin-bottom: 5rem;
+
+}
+.item7 {
+    background-image: url('/images/gallery/img-7.jpg');
+}
+.item7:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: center;
+
+    margin-bottom: 5rem;
+
+}
+.item8 {
+    background-image: url('/images/gallery/img-8.jpg');
+}
+.item8:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: right center;
+
+    margin-bottom: 5rem;
+
+}
+.item9 {
+    background-image: url('/images/gallery/img-5.jpg');
+}
+.item9:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: left bottom;
+
+    margin-bottom: 5rem;
+
+}
+.item10 {
+    background-image: url('/images/gallery/img-6.jpg');
+}
+.item10:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: left bottom;
+
+    margin-bottom: 5rem;
+
+}
+.item11 {
+    background-image: url('/images/gallery/img-7.jpg');
+}
+.item11:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: right bottom;
+
+    margin-bottom: 5rem;
+
+}
+.item12 {
+    background-image: url('/images/gallery/img-8.jpg');
+}
+.item12:hover {
+    z-index: 3;
+    transform: scale(2);
+    transform-origin: right bottom;
+
+    margin-bottom: 5rem;
+
+}
+@media screen and (max-width: 1000px) {
+    .item1:hover, .item2:hover, .item3:hover, .item4:hover,
+    .item5:hover, .item6:hover, .item7:hover, .item8:hover,
+    .item9:hover, .item10:hover, .item11:hover, .item12:hover {
+     transform: scale(1.25);    
+     transform-origin: center;
+     margin-bottom: 0;
+    }
+   }
+
+@media screen and (max-width: 600px) {
+   .item1:hover, .item2:hover, .item3:hover, .item4:hover,
+   .item5:hover, .item6:hover, .item7:hover, .item8:hover,
+   .item9:hover, .item10:hover, .item11:hover, .item12:hover {
+    transform: scale(1.25);    
+    transform-origin: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    height: 25rem;
+   }
+  }

@@ -1,19 +1,29 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Button } from '../components/ButtonElement'
-import { Container } from '../styles/pages/Home'
+import Hero from '../components/Hero';
+import InfoSection from '../components/InfoSection'
+import { homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data';
+import { halfObjOne, halfObjTwo, halfObjThree } from '../components/HalfSection/HalfData'
+import Pricing from '../components/Pricing';
+import Services from '../components/Services';
+import Sponsor from '../components/Sponsor';
+import Half from '../components/HalfSection';
 
 export default function Home() {
   return (
-    <Container>
+    <>
       <Head>
         <title>Homepage</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
       </Head>
 
-      <h1>ReactJS Structure</h1>
-      <p>A ReactJS + Next.js structure made by Rocketseat.</p>
-
-      <Button>Click Here</Button>
-    </Container>
+      <Hero />
+      <InfoSection {...homeObjOne}/>
+      <InfoSection {...homeObjTwo}/>
+      <Half {...halfObjTwo} />
+      <Services />
+      <InfoSection {...homeObjThree}/>
+      <Pricing />
+      <Sponsor />
+    </>
   )
 }
